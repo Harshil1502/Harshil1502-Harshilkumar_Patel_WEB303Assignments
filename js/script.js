@@ -19,7 +19,7 @@ $(function () {
             $('header').html('<h1>Welcome Back User</h1>');
            let lat1 = window.localStorage.getItem("lat1");
            let lon1 = window.localStorage.getItem("lon1");
-        let distance = calcDistanceBetweenPoints(lon1, lat1, lat2, lon2);
+        let distance = calcDistanceBetweenPoints(position.coords.latitude, position.coords.longitude, lat2, lon2);
          $('#locationhere').html(`Your current location is: Latitude: ${lat2}, Longitude: ${lon2} <br/> Congratulations you travelled ${distance/1000} KM since last visit`);
         
         }else{
@@ -35,7 +35,7 @@ $(function () {
     // function to calculate the distance in metres between two lat/long pairs on Earth
     // Haversine formula - https://en.wikipedia.org/wiki/Haversine_formula
     // Aren't those cool variable names? Yah gotta love JavaScript
-    function calcDistanceBetweenPoints(position.coords.latitude, position.coords.longitude, lat2, lon2) {
+    function calcDistanceBetweenPoints(lat1, lon1, lat2, lon2) {
         var toRadians = function (num) {
             return num * Math.PI / 180;
         }
