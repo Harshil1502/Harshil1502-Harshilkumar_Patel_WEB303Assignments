@@ -1,0 +1,58 @@
+[
+    
+    {
+        "firstName": "Naruto",
+        "lastName": "Uzumaki",
+        "clan": "Uzumaki",
+        "style": "Wind" , 
+        "gender": "Male" 
+        
+    },
+    {
+        "firstName": "Sasuke",
+        "lastName": "Uchhiha",
+        "clan": "Uchhiha",
+        "style": "Lightning", 
+        "gender": "Male"
+        
+    },
+    {
+        "firstName": "Hiruzen",
+        "lastName": "Sarutobi",
+        "clan": "Sarutobi",
+        "style": "Fire", 
+        "gender": "Male"
+        
+    },
+    {
+        "firstName": "Sakura",
+        "lastName": "Haruno",
+        "clan": "Uchiha",
+        "style": "Medical", 
+        "gender": "Female"
+        
+    },
+    {
+        "firstName": "Hinata",
+        "lastName": "Hyuga",
+        "clan": "Uzumaki",
+        "style": "The Gentle Fist", 
+        "gender": "Female"
+        
+    },
+    {
+        "firstName": "Kakashi",
+        "lastName": "Hatake",
+        "clan": "Hatake",
+        "style": "Lightning", 
+        "gender": "Male" 
+        
+    },
+    {
+        "firstName": "Iruka",
+        "lastName": "Umino",
+        "clan": "Uzumaki",
+        "style": "Wind", 
+        "gender":"Male" 
+    }
+]
