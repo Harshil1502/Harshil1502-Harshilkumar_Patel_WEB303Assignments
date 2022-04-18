@@ -1,0 +1,52 @@
+<html>
+
+<head>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1>
+        Harshilkumar Patel
+    </h1>
+    <div class="container login">
+        <form name="login" id="login" action="/register/" method="post">
+          <div class="two-thirds column" id="main">
+            <fieldset>
+              <legend>Login</legend>
+
+              <!-- username -->
+
+              <label for="username">Username:</label>
+              <input type="text" id="username" name="username" />
+              <span id="warning"></span>
+              <br/><br/>
+
+              <!-- Password -->
+
+              <label for="pwd">Password:</label>
+                    <input type="password" id="pwd" name="pwd" required/><br/><br/>
+                    <label for="conf-password">Confirm Password:</label>
+                    <input type="password" id="conf-password" name="conf-password" required/>
+
+              <label for="country">Choose a Country:</label>
+              <select name="country" id="country">
+                  <option value="none">Choose a country</option>
+              </select><br/><br/>
+
+              <input type="checkbox" id="term">Accept Terms and condition</input><br/><br/>
+              <input type="submit" value="Login" id="submit"/>
+            </fieldset>
+          </div>
+        </form>
+      </div>
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/countries.js"></script>
+    <script type="text/javascript" src="js/pwd.js"></script>
+    <script type="text/javascript" src="js/validation.js"></script>
+    <script type="text/javascript" src="js/countrys.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/disablesubmit.js"></script>
+</body>
+
+</html>
